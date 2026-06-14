@@ -28,8 +28,9 @@ src/
     Navbar.tsx          # Fixed navbar with scroll fill + mobile fullscreen menu
     Hero.tsx            # Hero section with PFP, animated entrance
     About.tsx           # About section with floating art cards
-    Showreel.tsx        # Full-width video player with custom controls
-    Carousel.tsx        # Infinite dual-row art carousel + Enter the Archive button
+    Work.tsx            # Wrapper combining Showreel and Carousel into one section
+      Showreel.tsx      # Full-width video player with custom controls
+      Carousel.tsx      # Infinite dual-row art carousel + Enter the Archive button
     NftProject.tsx      # The Canvas NFT section with 3-card carousel
     Collabs.tsx         # Client cards — Monad, Pike Finance, Freelance KOLs
     Contact.tsx         # Contact section with email and socials
@@ -41,6 +42,9 @@ public/
   images/
     pfp.jpg             # Tevin's personal PFP
     nft/
+      image1.jpg          # About section images (image1 through image2)
+      ...
+    nft/
       nft1.jpg          # NFT collection images (nft1 through nft8)
       ...
     carousel/
@@ -48,7 +52,6 @@ public/
       ...
   videos/
     showreel.mp4        # Main showreel video
-    ...
 ```
 
 ---
@@ -114,8 +117,7 @@ All colors are defined as CSS variables in `globals.css` and pulled directly fro
 | Navigation | `Navbar.tsx` | — |
 | Hero | `Hero.tsx` | `#hero` |
 | About | `About.tsx` | `#about` |
-| Showreel | `Showreel.tsx` | `#showreel` |
-| Art Carousel | `Carousel.tsx` | — |
+| Showreel + Carousel | `Work.tsx` | `#showreel` |
 | NFT Project | `NftProject.tsx` | `#nft` |
 | Collabs | `Collabs.tsx` | `#collabs` |
 | Contact | `Contact.tsx` | `#contact` |

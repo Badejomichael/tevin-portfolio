@@ -48,8 +48,8 @@ export default function Showreel() {
   };
 
   return (
-    <section
-      id="work"
+    <div
+      id="showreel"
       style={{
         background: "var(--ink-3)",
         position:   "relative",
@@ -351,9 +351,16 @@ export default function Showreel() {
           }
           #showreel > div:first-of-type > p {
             text-align: left !important;
+            max-width: 350px !important;
+          }
+        }
+        
+        @media (max-width: 300px) {
+          #showreel > div:first-of-type > p {
+            max-width: 220px !important;
           }
         }
       `}</style>
-    </section>
+    </div>
   );
 }

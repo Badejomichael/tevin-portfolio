@@ -56,7 +56,7 @@ export default function Carousel() {
   }, [isInView, topControls, bottomControls]);
 
   return (
-    <section
+    <div
       ref={ref}
       style={{
         background: "var(--ink-3)",
@@ -229,6 +229,6 @@ export default function Carousel() {
           />
         </a>
       </motion.div>
-    </section>
+    </div>
   );
 }

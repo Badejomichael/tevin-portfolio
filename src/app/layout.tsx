@@ -65,6 +65,9 @@ export default function RootLayout({
       lang="en"
       className={`${bebasNeue.variable} ${cormorantGaramond.variable} ${dmMono.variable}`}
     >
+      <head>
+        <link rel="icon" type="image/png" href="/images/pfp.jpg" />
+      </head>
       <body className="font-mono antialiased">
         {children}
       </body>

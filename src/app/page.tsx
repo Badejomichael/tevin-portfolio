@@ -4,8 +4,7 @@ import Cursor from "../components/Cursor";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
-import Showreel from "../components/Showreel";
-import Carousel from "../components/Carousel";
+import Work from "../components/Work";
 import NftProject from "../components/NftProject";
 import Collabs from "../components/Collabs";
 import Contact from "../components/Contact";
@@ -26,8 +25,7 @@ export default function Home() {
       {/* Sections */}
       <Hero />
       <About />
-      <Showreel />
-      <Carousel />
+      <Work />
       <NftProject />
       <Collabs />
       <Contact />
